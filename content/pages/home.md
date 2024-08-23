@@ -14,7 +14,7 @@ links:
     description: test
     url: 'https://vercel.com/templates?framework=next.js'
   - header: test
-    description: Instantly deploy your Next.js site to a shareable URL with Vercel.
+    description: test
     url: 'https://vercel.com/new?utm_source=create-next-app'
 ---
 
