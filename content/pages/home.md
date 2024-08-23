@@ -8,7 +8,7 @@ links:
     description: test
     url: 'https://nextjs.org/docs?utm_source=create-next-app'
   - header: Test
-    description: Learn about Next.js in an interactive course with quizzes!
+    description: test
     url: 'https://nextjs.org/learn?utm_source=create-next-app'
   - header: test
     description: Explore the Next.js 13 playground.
