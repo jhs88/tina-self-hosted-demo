@@ -5,7 +5,7 @@ logo:
   alt: Logo
 links:
   - header: Test
-    description: Find in-depth information about Next.js features and API.
+    description: test
     url: 'https://nextjs.org/docs?utm_source=create-next-app'
   - header: Test
     description: Learn about Next.js in an interactive course with quizzes!
