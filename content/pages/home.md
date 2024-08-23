@@ -1,7 +1,7 @@
 ---
 header: Hello Test Page
 logo:
-  url: ''
+  url: /tina.svg
   alt: Logo
 links:
   - header: Test
