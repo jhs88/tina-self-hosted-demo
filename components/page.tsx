@@ -1,6 +1,6 @@
 "use client";
 
-import { useTina } from "tinacms/dist/react";
+import { tinaField, useTina } from "tinacms/dist/react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { PageQuery } from "../tina/__generated__/types";
 
@@ -13,5 +13,9 @@ export default function Page(
 ) {
   const { data } = useTina(props);
   const content = data?.page.body;
-  return <TinaMarkdown {...{ content }} />;
+  return (
+    <div data-tina-field={tinaField(data.page, "body")}>
+      <TinaMarkdown {...{ content }} />
+    </div>
+  );
 }

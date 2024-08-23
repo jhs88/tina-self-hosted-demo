@@ -11,10 +11,9 @@ export default function PostList(
     query: string;
   }>
 ) {
-  const { data } = useTina(props);
-  const postsList = data.postConnection.edges;
+  const postsList = props.data.postConnection.edges;
   return (
-    postsList && (
+    (postsList && (
       <>
         <h1>Posts</h1>
         <div>
@@ -27,6 +26,6 @@ export default function PostList(
           ))}
         </div>
       </>
-    )
+    )) ?? <div>No posts found</div>
   );
 }
