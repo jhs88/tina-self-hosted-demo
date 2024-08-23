@@ -1,8 +1,8 @@
 ---
-header: Im bored
+header: Hello Test Page
 logo:
-  url: /next.svg
-  alt: NextJS
+  url: ''
+  alt: Logo
 links:
   - header: Docs
     description: Find in-depth information about Next.js features and API.
