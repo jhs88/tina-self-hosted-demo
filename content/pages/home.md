@@ -11,7 +11,7 @@ links:
     description: test
     url: 'https://nextjs.org/learn?utm_source=create-next-app'
   - header: test
-    description: Explore the Next.js 13 playground.
+    description: test
     url: 'https://vercel.com/templates?framework=next.js'
   - header: test
     description: Instantly deploy your Next.js site to a shareable URL with Vercel.
