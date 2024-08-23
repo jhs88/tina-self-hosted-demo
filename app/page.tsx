@@ -1,8 +1,8 @@
-import { Page } from "../components/page";
+import { Page } from "../components/home";
 import { client } from "../tina/__generated__/databaseClient";
 
 export default async function Home() {
-  const res = await client.queries.page({ relativePath: "home.md" });
+  const res = await client.queries.homepage({ relativePath: "home.md" });
   return (
     <Page
       // https://github.com/vercel/next.js/issues/47447
