@@ -1,6 +1,8 @@
 "use client"; // Error boundaries must be Client Components
 
 import { Inter } from "next/font/google";
+
+import { Button } from "@/components/ui/button";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,7 +21,7 @@ export default function GlobalError({
         <main className="flex min-h-screen flex-col items-center justify-evenly">
           <h1>Something went wrong!</h1>
           <p>{error.message}</p>
-          <button onClick={() => reset()}>Try again</button>
+          <Button onClick={() => reset()}>Try again</Button>
         </main>
       </body>
     </html>

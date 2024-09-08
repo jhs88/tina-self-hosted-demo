@@ -12,14 +12,20 @@ export default function Post(
 ) {
   const { data } = useTina(props);
   return (
-    <code>
-      <pre
-        style={{
-          backgroundColor: "darkgray",
-        }}
-      >
-        {JSON.stringify(data.post, null, 2)}
-      </pre>
-    </code>
+    <div
+      style={{
+        margin: "3rem",
+      }}
+    >
+      <code>
+        <pre
+          style={{
+            backgroundColor: "darkgray",
+          }}
+        >
+          {JSON.stringify(data.post, null, 2)}
+        </pre>
+      </code>
+    </div>
   );
 }

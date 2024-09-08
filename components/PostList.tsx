@@ -14,9 +14,11 @@ export default function PostList(
   const postsList = props.data.postConnection.edges;
   return (
     (postsList && (
-      <>
-        <h1>Posts</h1>
-        <div>
+      <section className="px-12 py-6">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+          Posts
+        </h1>
+        <div className="py-10">
           {postsList.map((post) => (
             <div key={post?.node?.id}>
               <Link href={`/posts/${post?.node?._sys.filename}`}>
@@ -25,7 +27,11 @@ export default function PostList(
             </div>
           ))}
         </div>
-      </>
-    )) ?? <div>No posts found</div>
+      </section>
+    )) ?? (
+      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+        No posts found
+      </h1>
+    )
   );
 }
