@@ -92,7 +92,7 @@ export function Page(
 
       <Hero />
 
-      <section>
+      {/* <section>
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           The Joke Tax Chronicles
         </h1>
@@ -206,7 +206,7 @@ export function Page(
           The moral of the story is: never underestimate the power of a good
           laugh and always be careful of bad ideas.
         </p>
-      </section>
+      </section> */}
     </main>
   );
 }
