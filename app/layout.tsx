@@ -33,7 +33,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <header>
+          <header className="flex flex-col items-center justify-between py-8">
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
@@ -60,7 +60,9 @@ export default function RootLayout({
               </NavigationMenuList>
             </NavigationMenu>
           </header>
-          <main>{children}</main>
+          <main className="flex min-h-screen flex-col items-center justify-between">
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>

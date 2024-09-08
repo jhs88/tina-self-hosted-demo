@@ -15,7 +15,7 @@ export function Page(
   const { data } = useTina(props);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <section className="flex flex-col items-center justify-between py-4">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <p
           data-tina-field={tinaField(data.homepage, "header")}
@@ -207,6 +207,6 @@ export function Page(
           laugh and always be careful of bad ideas.
         </p>
       </section> */}
-    </main>
+    </section>
   );
 }
