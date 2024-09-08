@@ -53,6 +53,15 @@ export default function RootLayout({
                       Posts
                     </NavigationMenuLink>
                   </Link>
+                </NavigationMenuItem>{" "}
+                <NavigationMenuItem>
+                  <Link href="/typography" legacyBehavior passHref>
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                    >
+                      Typography
+                    </NavigationMenuLink>
+                  </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <ModeToggle />
