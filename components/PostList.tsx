@@ -15,7 +15,7 @@ export default function PostList(
   return (
     (postsList && (
       <section className="px-12 py-6">
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+        <h1 className="scroll-m-20 text-4xl font-extrabold text-center tracking-tight lg:text-5xl">
           Posts
         </h1>
         <div className="py-10">
@@ -29,7 +29,7 @@ export default function PostList(
         </div>
       </section>
     )) ?? (
-      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+      <h1 className="scroll-m-20 text-4xl font-extrabold text-center tracking-tight lg:text-5xl">
         No posts found
       </h1>
     )

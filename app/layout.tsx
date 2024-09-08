@@ -26,14 +26,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`flex min-h-screen flex-col ${inter.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <header className="flex flex-col items-center justify-between py-8">
+          <header className="flex flex-col items-center justify-between py-24">
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
@@ -60,9 +60,7 @@ export default function RootLayout({
               </NavigationMenuList>
             </NavigationMenu>
           </header>
-          <main className="flex min-h-screen flex-col items-center justify-between">
-            {children}
-          </main>
+          <main className="flex flex-col">{children}</main>
         </ThemeProvider>
       </body>
     </html>
