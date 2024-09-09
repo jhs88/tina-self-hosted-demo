@@ -1,5 +1,5 @@
-import ClientPage from "../../components/page";
-import { client } from "../../tina/__generated__/databaseClient";
+import ClientPage from "@/components/page";
+import { client } from "@/tina/__generated__/databaseClient";
 
 export default async function Page({
   params,

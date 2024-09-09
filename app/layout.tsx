@@ -1,16 +1,16 @@
 import { Inter } from "next/font/google";
 import Link from "next/link";
 
-import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/darkmode-toggle";
-import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
+  NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { NavigationMenuList } from "@/components/ui/navigation-menu";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

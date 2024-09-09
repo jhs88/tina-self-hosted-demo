@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import { tinaField, useTina } from "tinacms/dist/react";
-import { HomepageQuery } from "../tina/__generated__/types";
-import { Hero } from "./hero";
+
+import { Hero } from "@/components/hero";
+import { HomepageQuery } from "@/tina/__generated__/types";
 
 export function Page(
   props: Readonly<{

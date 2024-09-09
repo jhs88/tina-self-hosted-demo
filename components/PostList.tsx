@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useTina } from "tinacms/dist/react";
-import { PostConnectionQuery } from "../tina/__generated__/types";
+
+import { PostConnectionQuery } from "@/tina/__generated__/types";
 
 export default function PostList(
   props: Readonly<{

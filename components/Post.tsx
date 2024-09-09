@@ -1,7 +1,8 @@
 "use client";
 
 import { useTina } from "tinacms/dist/react";
-import { PostQuery } from "../tina/__generated__/types";
+
+import { PostQuery } from "@/tina/__generated__/types";
 
 export default function Post(
   props: Readonly<{

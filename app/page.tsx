@@ -1,5 +1,5 @@
-import { Page } from "../components/home";
-import { client } from "../tina/__generated__/databaseClient";
+import { Page } from "@/components/home";
+import { client } from "@/tina/__generated__/databaseClient";
 
 export default async function Home() {
   const res = await client.queries.homepage({ relativePath: "home.md" });
