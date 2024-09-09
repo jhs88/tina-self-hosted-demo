@@ -1,4 +1,4 @@
-import { Collection } from "tinacms";
+import type { Collection } from "tinacms";
 
 export const HomePageCollection: Collection = {
   name: "homepage",

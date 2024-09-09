@@ -1,4 +1,4 @@
-import PostList from "@/components/PostList";
+import PostList from "@/components/post-list";
 import { client } from "@/tina/__generated__/databaseClient";
 
 export default async function Page() {

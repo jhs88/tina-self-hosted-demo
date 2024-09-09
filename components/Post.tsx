@@ -13,11 +13,7 @@ export default function Post(
 ) {
   const { data } = useTina(props);
   return (
-    <div
-      style={{
-        margin: "3rem",
-      }}
-    >
+    <div className="mx-20 px-20 py-12">
       <code>
         <pre
           style={{
